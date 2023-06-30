@@ -37,6 +37,19 @@
 
 	</dependencies>
 
+        <distributionManagement>
+            <repository>
+                <id>central</id>
+                <name>java-standalone-releases</name>
+                <url>https://jon99.jfrog.io/ui/admin/repositories/local/libs-release-local</url>
+            </repository>
+            <snapshotRepository>
+                <id>snapshots</id>
+                <name>java-standalone-snapshots</name>
+                <url>https://jon99.jfrog.io/ui/admin/repositories/local/libs-snapshot-local</url>
+            </snapshotRepository>
+        </distributionManagement>
+
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
