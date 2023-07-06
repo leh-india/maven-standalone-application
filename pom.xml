@@ -37,12 +37,7 @@
 
 	</dependencies>
 
-        <distributionManagement>
-            <repository>
-                <id>central</id>
-                <name>java-standalone-releases</name>
-                <url>https://jon99.jfrog.io/ui/admin/repositories/local/libs-release-local</url>
-            </repository>
+        <distributionManagement>            
             <snapshotRepository>
                 <id>snapshots</id>
                 <name>java-standalone-snapshots</name>
