@@ -40,7 +40,7 @@
      <distributionManagement>
     	<snapshotRepository>
         <id>snapshots</id>
-        <name>a0hnudwnipicr-artifactory-primary-0-snapshots</name>
+        <name>java-standalone-snapshot</name>
         <url>https://mahesh99.jfrog.io/artifactory/java-standalone-snapshot</url>
     	</snapshotRepository>
 	</distributionManagement>
